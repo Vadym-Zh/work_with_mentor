@@ -4,34 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <!-- header -->
-    <header>
-      <nav>
-        <a href="./index.html">
-          <img src="./img/logo.svg" alt="logo" />Appello</a
+    <header class="header">
+      <div class="container header-container">
+        <a class="header-logo" href="./index.html">
+          <img
+            class="header-img"
+            src="./img/logo.svg"
+            alt="logo"
+            width="27"
+            height="30"
+          />Appello</a
         >
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Process</a></li>
-          <li><a href="">Team</a></li>
-          <li><a href="">Resources</a></li>
-        </ul>
-        <button type="button">Get project quote</button>
-      </nav>
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li><a class="header-nav-link" href="">Home</a></li>
+            <li><a class="header-nav-link" href="">Portfolio</a></li>
+            <li><a class="header-nav-link" href="">Process</a></li>
+            <li><a class="header-nav-link" href="">Team</a></li>
+            <li><a class="header-nav-link" href="">Resources</a></li>
+          </ul>
+        </nav>
+        <button class="header-btn" type="button">Get project quote</button>
+      </div>
     </header>
     <main>
       <!-- hero -->
-      <section>
-        <h1>Leaders in Software Design & Development</h1>
-        <p>
-          Establishing a technology company takes a strong software team to
-          deliver on what needs to be done.
-        </p>
-        <a href="">View our work</a>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Leaders in Software Design & Development</h1>
+          <p class="hero-text">
+            Establishing a technology company takes a strong software team to
+            deliver on what needs to be done.
+          </p>
+          <a class="hero-btn" href="">View our work</a>
+        </div>
       </section>
       <!-- partner -->
       <section>

@@ -1,0 +1,130 @@
+/* --- налаштування --- */
+:root {
+  --main-title-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1190px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid red;
+}
+/* --- хедер --- */
+.header {
+  background-color: lightblue;
+  padding: 55px 0;
+}
+
+.header-logo {
+  color: var(--main-title-color);
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header-img {
+  margin-right: 8px;
+}
+
+.header-nav-link {
+  color: var(--main-title-color);
+  font-size: 13px;
+  line-height: calc(30 / 13);
+  padding: 10px 0;
+}
+
+.header-btn {
+  color: var(--main-title-color);
+  font-size: 13px;
+  line-height: calc(16 / 13);
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: transparent;
+  border: 1px solid var(--main-title-color);
+  border-radius: 4px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  column-gap: 50px;
+  margin-right: 52px;
+}
+
+/* --- хіро --- */
+
+.hero {
+  background-color: lightgray;
+  padding-top: 240px;
+  padding-bottom: 270px;
+}
+
+.hero-title {
+  color: var(--main-title-color);
+  font-weight: 400;
+  font-size: 42px;
+  line-height: calc(50 / 42);
+  max-width: 421px;
+  margin-bottom: 35px;
+}
+
+.hero-text {
+  color: var(--main-title-color);
+  font-size: 11px;
+  line-height: calc(30 / 11);
+  max-width: 411px;
+  margin-bottom: 35px;
+}
+
+.hero-btn {
+  color: var(--main-title-color);
+  font-size: 15px;
+  line-height: calc(30 / 15);
+  background: #0a8bfe;
+  padding: 15px 37px;
+  width: 173px;
+  height: 60px;
+  border-radius: 4px;
+  display: inline-block;
+}
